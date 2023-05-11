@@ -1,0 +1,142 @@
+.nav_icon{
+    width: 60px;
+}
+.nav_icon img{
+    width: 100%;
+    animation: icon 2s infinite forwards ease-in-out;
+}
+.nav{
+    background-color: rgb(78, 83, 235) !important;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+}
+.nav_link{
+    color: #fff;
+    text-decoration: none;
+}
+.nav_list{
+    display: flex;
+}
+.lii{
+    list-style: none;
+    padding: 0 15px;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+.form{
+    margin-bottom: 20px;
+}
+.form_input{
+    border: none;
+    outline: none;
+    padding: 3px 7px;
+    margin-right: 3px;
+    border-radius: 5px;
+}
+.form_button{
+    border: none;
+    outline: none;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+@keyframes icon{
+    0%{
+        transform: rotate(0deg);
+        transition: 300ms linear all;
+    }
+    5%{
+        transform: translate(18deg);
+        transition: 300ms linear all;
+    }
+    10%{
+        transform: rotate(36deg);
+        transition: 300ms linear all;
+    }
+    15%{
+        transform: rotate(54deg);
+        transition: 300ms linear all;
+    }
+    20%{
+        transform: rotate(72deg);
+        transition: 300ms linear all;
+    }
+    25%{
+        transform: rotate(90deg);
+        transition: 300ms linear all;
+    }
+    30%{
+        transform: rotate(108deg);
+        transition: 300ms linear all;
+    }
+    35%{
+    transform: rotate(126deg); 
+    transition: 300ms linear all;
+    }
+    40%{
+        transform: rotate(144deg);
+        transition: 300ms linear all;
+    }
+    45%{
+        transform: rotate(162deg);
+        transition: 300ms linear all;
+    }
+    50%{
+        transform: rotate(180deg);
+        transition: 300ms linear all;
+    }
+    55%{
+        transform: rotate(196deg);
+
+        transition: 300ms linear all;
+    }
+    60%{
+        transform: rotate(216deg);
+        transition: 300ms linear all;
+    }
+    65%{
+        transform: rotate(234deg);
+        transition: 300ms linear all;
+    }
+    70%{
+        transform: rotate(252deg);
+        transition: 300ms linear all;
+    }
+    75%{
+        transform: rotate(270deg);
+        transition: 300ms linear all;
+    }
+    80%{
+        transform: rotate(288deg);
+        transition: 300ms linear all;
+    }
+    85%{
+        transform: rotate(306deg);
+        transition: 300ms linear all;
+    }
+    90%{
+        transform: rotate(324deg);
+        transition: 300ms linear all;
+    }
+    95%{
+        transform: rotate(342deg);
+        transition: 300ms linear all;
+    }
+    100%{
+        transform: rotate(360deg);
+        transition: 300ms linear all;
+    }
+}
+@media screen and (max-width: 530px){
+    .lii{
+        padding: 0 5px;
+    }
+    .nav_list{
+        padding-left: 0;
+    }
+}

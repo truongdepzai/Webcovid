@@ -1,0 +1,19 @@
+.footer{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section_total{
+    margin-bottom: 50px;
+}
+.footer_left, .footer_right, .footer_center{
+    color: #fff;
+    padding: 10px 15px;
+}
+@media screen and (max-width:976px){
+    .footer{
+        flex-direction: column;
+    }
+}
